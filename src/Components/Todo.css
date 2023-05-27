@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #05263B;
+    color: #75E6DA;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+}
+h1{
+    margin-top: 2rem;
+}
+hr{
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+.user{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    margin-top: 2rem;
+    width: 30rem;
+    height: 2.2rem;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #75E6DA;
+    padding: 8px;
+    font-size: 1rem;
+    transition: 0.5s;
+    text-decoration: underline;
+}
+
+input:hover{
+    box-shadow: 0 1px 1px #75E6DA, 0 2px 2px #75E6DA, 0 1px 4px #75E6DA, 0 1px 8px #75E6DA, 0 2px 16px #75E6DA;
+}
+
+.btn1{
+    margin-top: 2rem;
+    width: 6rem;
+    outline: 0;
+    border: 1px solid #75E6DA;
+    margin-left: 5rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    transition: 0.3s;
+    height: 2rem;
+}
+
+.btn1:hover{
+    background-color: #75E6DA;
+    color: #05263B;
+}
+
+.list{
+   margin-top: 1rem;
+    width: 100%;
+    height: 4rem;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    
+}
+p{
+    width: 25rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 8px;
+    border: 1px solid #75E6DA;
+    border-radius: 6px;
+}
+
+.btn2{
+    height: 2rem;
+    width: 3rem;
+    margin-left: 2rem;
+    outline: 0;
+    border: 1px solid #75E6DA;
+    font-size: 1rem;
+    border-radius: 6px;
+    transition: 0.3s;
+
+}
+
+.btn2:hover{
+    background-color: #75E6DA;
+    color: #05263B;
+}
+.complete{
+    /* margin-top: 2rem; */
+    width: 6rem;
+    height: 2rem;
+    outline: 0;
+    border: 1px solid #75E6DA;
+    margin-left: 2rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    transition: 0.3s;
+    transition: 0.5s;
+}
+.complete:hover{
+    background-color: #75E6DA;
+    color: #05263B;
+}
+
+@media screen and (max-width: 480px) {
+    input{
+        margin-left: 0.6rem;
+        width: 14rem;
+    }
+    .btn1{
+        width: 5rem;
+        height: 2.3rem;
+        margin-left: 1.5rem;
+        /* margin-right: 2rem; */
+    }
+  .btn2{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  p{
+    min-height: 2rem;
+    max-width: 20rem;
+    padding: 8px;
+    font-size: 1rem;
+  }
+  .list{
+    display: flex;
+    flex-direction: column;
+    height: 3rem;
+    margin-top: 3rem;
+  }
+  .box{
+    margin-top: 0.8rem;
+  }
+  .complete{
+    width: 8rem;
+  }
+ 
+}
